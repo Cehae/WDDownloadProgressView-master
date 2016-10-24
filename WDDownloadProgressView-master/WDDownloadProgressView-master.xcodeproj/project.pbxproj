@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761929C21DBCB91A00786A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929C11DBCB91A00786A68 /* main.m */; };
+		761929C51DBCB91A00786A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929C41DBCB91A00786A68 /* AppDelegate.m */; };
+		761929C81DBCB91A00786A68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761929C71DBCB91A00786A68 /* ViewController.m */; };
+		761929CB1DBCB91A00786A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761929C91DBCB91A00786A68 /* Main.storyboard */; };
+		761929CD1DBCB91A00786A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761929CC1DBCB91A00786A68 /* Assets.xcassets */; };
+		761929D01DBCB91A00786A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761929CE1DBCB91A00786A68 /* LaunchScreen.storyboard */; };
+		7698D2B61DBE677900002FDB /* WDDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7698D2B51DBE677900002FDB /* WDDownloadProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		761929BD1DBCB91A00786A68 /* WDDownloadProgressView-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WDDownloadProgressView-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761929C11DBCB91A00786A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761929C31DBCB91A00786A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761929C41DBCB91A00786A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761929C61DBCB91A00786A68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		761929C71DBCB91A00786A68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		761929CA1DBCB91A00786A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761929CC1DBCB91A00786A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761929CF1DBCB91A00786A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761929D11DBCB91A00786A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7698D2B41DBE677900002FDB /* WDDownloadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDDownloadProgressView.h; sourceTree = "<group>"; };
+		7698D2B51DBE677900002FDB /* WDDownloadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDDownloadProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761929BA1DBCB91A00786A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761929B41DBCB91A00786A68 = {
+			isa = PBXGroup;
+			children = (
+				761929BF1DBCB91A00786A68 /* WDDownloadProgressView-master */,
+				761929BE1DBCB91A00786A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761929BE1DBCB91A00786A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761929BD1DBCB91A00786A68 /* WDDownloadProgressView-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761929BF1DBCB91A00786A68 /* WDDownloadProgressView-master */ = {
+			isa = PBXGroup;
+			children = (
+				7698D2B31DBE677900002FDB /* WDDownloadProgressView */,
+				761929C31DBCB91A00786A68 /* AppDelegate.h */,
+				761929C41DBCB91A00786A68 /* AppDelegate.m */,
+				761929C61DBCB91A00786A68 /* ViewController.h */,
+				761929C71DBCB91A00786A68 /* ViewController.m */,
+				761929C91DBCB91A00786A68 /* Main.storyboard */,
+				761929CC1DBCB91A00786A68 /* Assets.xcassets */,
+				761929CE1DBCB91A00786A68 /* LaunchScreen.storyboard */,
+				761929D11DBCB91A00786A68 /* Info.plist */,
+				761929C01DBCB91A00786A68 /* Supporting Files */,
+			);
+			path = "WDDownloadProgressView-master";
+			sourceTree = "<group>";
+		};
+		761929C01DBCB91A00786A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761929C11DBCB91A00786A68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7698D2B31DBE677900002FDB /* WDDownloadProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				7698D2B41DBE677900002FDB /* WDDownloadProgressView.h */,
+				7698D2B51DBE677900002FDB /* WDDownloadProgressView.m */,
+			);
+			name = WDDownloadProgressView;
+			path = ../../WDDownloadProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761929BC1DBCB91A00786A68 /* WDDownloadProgressView-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761929D41DBCB91A00786A68 /* Build configuration list for PBXNativeTarget "WDDownloadProgressView-master" */;
+			buildPhases = (
+				761929B91DBCB91A00786A68 /* Sources */,
+				761929BA1DBCB91A00786A68 /* Frameworks */,
+				761929BB1DBCB91A00786A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WDDownloadProgressView-master";
+			productName = "WDDownloadProgressView-master";
+			productReference = 761929BD1DBCB91A00786A68 /* WDDownloadProgressView-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761929B51DBCB91A00786A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = WD;
+				TargetAttributes = {
+					761929BC1DBCB91A00786A68 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TUT6WU5FHW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 761929B81DBCB91A00786A68 /* Build configuration list for PBXProject "WDDownloadProgressView-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761929B41DBCB91A00786A68;
+			productRefGroup = 761929BE1DBCB91A00786A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761929BC1DBCB91A00786A68 /* WDDownloadProgressView-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761929BB1DBCB91A00786A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761929D01DBCB91A00786A68 /* LaunchScreen.storyboard in Resources */,
+				761929CD1DBCB91A00786A68 /* Assets.xcassets in Resources */,
+				761929CB1DBCB91A00786A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761929B91DBCB91A00786A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761929C81DBCB91A00786A68 /* ViewController.m in Sources */,
+				761929C51DBCB91A00786A68 /* AppDelegate.m in Sources */,
+				7698D2B61DBE677900002FDB /* WDDownloadProgressView.m in Sources */,
+				761929C21DBCB91A00786A68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		761929C91DBCB91A00786A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761929CA1DBCB91A00786A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761929CE1DBCB91A00786A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761929CF1DBCB91A00786A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761929D21DBCB91A00786A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761929D31DBCB91A00786A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761929D51DBCB91A00786A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUT6WU5FHW;
+				INFOPLIST_FILE = "WDDownloadProgressView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wdtest.WDDownloadProgressView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		761929D61DBCB91A00786A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUT6WU5FHW;
+				INFOPLIST_FILE = "WDDownloadProgressView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wdtest.WDDownloadProgressView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761929B81DBCB91A00786A68 /* Build configuration list for PBXProject "WDDownloadProgressView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761929D21DBCB91A00786A68 /* Debug */,
+				761929D31DBCB91A00786A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761929D41DBCB91A00786A68 /* Build configuration list for PBXNativeTarget "WDDownloadProgressView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761929D51DBCB91A00786A68 /* Debug */,
+				761929D61DBCB91A00786A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761929B51DBCB91A00786A68 /* Project object */;
+}
